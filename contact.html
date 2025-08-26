@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amina Sagel - Instructional Designer</title>
+    <link rel="stylesheet" href="contact.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div>
+                <a id="logo" class="gsap-nav"><img src="logo.png" alt="AS logo" width="50px"></a>
+            </div>
+
+            <div>
+                <a class="nav-btn gsap-nav nav-portfolio">portfolio</a>
+                <a class="nav-btn gsap-nav nav-about">about</a>
+                <a class="nav-btn gsap-nav nav-contact">contact</a>
+            </div>
+        </nav>
+    </header>
+
+    <section class="container nav-target--js">
+            <div class="container-inner">
+                <h2> <span class="underlined">CONTACT</span></h2>
+                <p class="par">Always open to new opportunitites. Let’s connect to discuss how I can add value to your team!</p>
+            </div>
+
+            <form class="container-inner" action="https://formspree.io/f/mzzebndk" method="POST">
+
+                <div>
+                    <p class="par">Name</p>
+                    <input placeholder="" type="text" name="name" required="">
+                </div>
+                    
+                <div>
+                    <p class="par">Email</p>
+                    <input placeholder="" type="email" name="email" required="">
+                </div>
+
+                <div>
+                    <p class="par">Message</p>
+                    <textarea name="message"></textarea>
+                </div>
+
+                <button class="btn-submit btn-secondary" type="submit">SUBMIT</button>   
+            </form>
+    </section>
+
+        <footer>
+        <div class="custom-shape-divider-top-1754787382">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+            <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+        </svg>
+    </div>
+
+        <div class="footer-container">
+            <p class="par-light par">Instructional Designer/ Learning Experience Designer. 
+            <br>    
+            Designing with purpose, and always learner-first.</p> 
+        </div>
+        
+        <div class="footer-nav">
+            <img src="logo.png" alt="logo" width="100px">
+        </div>
+
+        <div class="footer-nav">
+            <a class="nav-btn nav--gsap nav-portfolio">portfolio</a>
+            <a class="nav-btn nav--gsap nav-about">about</a>
+            <a class="nav-btn nav--gsap nav-contact">contact</a>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/gsap.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/ScrollTrigger.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/TextPlugin.min.js"></script>
+    <script src="contact.js"></script>
+</body>
+</html>
