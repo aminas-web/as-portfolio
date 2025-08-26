@@ -1,2 +1,2 @@
 # as-portfolio
-Instructional Designer/ Learning Experience Designer
+Instructional Designer, Learning Experience Designer
